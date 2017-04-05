@@ -4,7 +4,7 @@ class Player extends Component {
   render() {
     return(
       <div>
-        <p>player</p>
+        <p>Player: {this.props.match.params.number}</p>
       </div>
     );
   }
